@@ -99,11 +99,32 @@ main h1 {
 main h3 {
     color: #34495e;
     margin: 15px 0 10px;
+    text-align: auto;
 }
 
 main p {
     margin-bottom: 15px;
     color: #666;
+}
+
+.lista-competencias {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.lista-competencias img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.lista-competencias img:hover {
+    transform: scale(1.1);
 }
 
 .projetos article {
